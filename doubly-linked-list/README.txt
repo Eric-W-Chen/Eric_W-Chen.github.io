@@ -1,0 +1,1 @@
+Eric Chen - Project 4 The program works as required. It compiles/runs and the output matches the correct format to the letter. The style and formatting is correct because I put necessary comments.
