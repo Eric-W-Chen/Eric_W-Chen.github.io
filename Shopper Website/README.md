@@ -11,10 +11,9 @@ Add ItemForm         | Create a form that a user can fill out in order to add it
 Cart Page            | Create a page that pulls from the endpoint `GET /api/cart`, with the cookie from<br>authentication, and draws them as a list with the names and costs.                                                                                                                                                                                                                |
 
 ## Development Setup
-You'll first need [Node.js](https://nodejs.org/) installed, however I recommend
+You'll first need [Node.js](https://nodejs.org/) installed, I recommend
 installing it through [nodenv](https://github.com/nodenv/nodenv) as it provides
-a great way to switch between projects' node versions automatically and may
-come in handy with your own sponsors' projects.
+a great way to switch between projects' node versions automatically.
 
 ### Installing Nodenv
 The easiest way to install nodenv is through [HomeBrew](https://brew.sh/).
