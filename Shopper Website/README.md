@@ -1,32 +1,14 @@
-# React Shopper Boilerplate
-This project is a simple React boilerplate to get you started -- feel free to
-either create your own client app or eject the app, but you must have some
-form of formal state management (React Contexts, Redux, etc).
-
 ## Purpose
 This application is an example of an app with sufficient state management, decoupling
 of network calls, and how React hooks and functional components work.
 
-You may decide to rewrite the app, or write future components, in class; all the power
-to you!
-
 ## Goals
-You should attempt to achieve 15 points on this project by following the below
-schema...
 
-However, you may decide to add your own features to the app that may compensate
-for points if they prove you have learned a part of the technology and are relevant
-to the stack that your team will be working with.
-
-If you decide to take that route, please confirm with the TA or professor first.
-
-Your points can be combined with those goals of the [backend](https://github.com/USFClassrooms/Shopper-API).
-
-| Points | Name                 | Description                                                                                                                                                                                                                                                                                                                                                           |
-|--------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 5      | Add RegistrationForm | Create a registration form that unauthorized users can use to create an account with.<br><br>It should post a network request to the backend route `POST /api/users` with the following schema:<br><br>`{ firstName: string, lastName: string, username: string }`<br><br><br>It should update the state with the authenticated details and redirect to `/dashboard`  |
-| 5      | Add ItemForm         | Create a form that a user can fill out in order to add items to their shopping cart.<br><br>It should post a network request to the backend route `POST /api/cart`, with the cookie from<br>authentication, with the following or similar schema:<br><br>`{ name: string (i.e. 'iPhone X'), cost: Number (i.e. 250) }`                                                |
-| 5      | Cart Page            | Create a page that pulls from the endpoint `GET /api/cart`, with the cookie from<br>authentication, and draws them as a list with the names and costs.                                                                                                                                                                                                                |
+ Name                 | Description                                                                                                                                                                                                                                                                                                                                                           |
+----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+Add RegistrationForm | Create a registration form that unauthorized users can use to create an account with.<br><br>It should post a network request to the backend route `POST /api/users` with the following schema:<br><br>`{ firstName: string, lastName: string, username: string }`<br><br><br>It should update the state with the authenticated details and redirect to `/dashboard`  |
+Add ItemForm         | Create a form that a user can fill out in order to add items to their shopping cart.<br><br>It should post a network request to the backend route `POST /api/cart`, with the cookie from<br>authentication, with the following or similar schema:<br><br>`{ name: string (i.e. 'iPhone X'), cost: Number (i.e. 250) }`                                                |
+Cart Page            | Create a page that pulls from the endpoint `GET /api/cart`, with the cookie from<br>authentication, and draws them as a list with the names and costs.                                                                                                                                                                                                                |
 
 ## Development Setup
 You'll first need [Node.js](https://nodejs.org/) installed, however I recommend
