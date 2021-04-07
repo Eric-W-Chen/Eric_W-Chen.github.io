@@ -1,7 +1,6 @@
 # complete-simple-chess-Eric-W-Chen
 
 Eric Chen
-ID: 20394954
 
 
 I created a chess board based on the positions for each piece in the input file and then the Assignment.java reads it. I also set each piece on the board and saved a copy of the original board so when we tried to play it again, it gets the original board which is the copy. After reading in the file, you need to establish the beginning player who is the white side, player 1, also known as the player1 flag because it says whether or not it's player 1 or 2. True for player 1, false for player 2. By moving pieces, I ask for user input and remove the piece from the board originally and replace it with a new chess piece when the pieces move, and the same concept applies when killing other pieces. After replacing the piece, we checked to see whether or not the piece that was just moved is a pawn and which player it is and to see if it reached the end of the board, as asked for by part C. Once the piece reaches the end of the board, it will ask the player to change the pawn to any piece (except for king) and after changing the pawn to any piece the game continues. Once the king is killed, the option to play again is asked and if yes, the board will clear up to the original board. 
