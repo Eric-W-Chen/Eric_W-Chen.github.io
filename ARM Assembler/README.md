@@ -1,1 +1,3 @@
-# lab07-Eric-W-Chen
+Wrote an assembler for a subset of the ARM Instruction Set Architecture (ISA), specified by the ARM Assembly microsyntax (scanner) EBNF. The assembler is called by armasm, and uses the same command-line syntax as the GNU assembler ./armasm -o example_file.o example_file.s. 
+Achieved this by using a parse tree and walking through the parse tree while generating machine code instructions using instruction formats. The assembler also supports the command-line option -h to generate only a .hex file rather than a .o file ./armasm -h sort_s.hex sort_s.s.
+Utilized the ARM Executable and Linkable Format (ELF) library, which writes .o files in ELF. These .o files can then be linked into an executable by gcc. 
