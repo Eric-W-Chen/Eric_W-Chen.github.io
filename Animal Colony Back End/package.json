@@ -1,0 +1,25 @@
+{
+  "name": "fire-colony-api",
+  "version": "1.0.0",
+  "description": "## [Frontend code](https://github.com/dielhennr/colony-frontend)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dielhennr/fire-colony-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dielhennr/fire-colony-api/issues"
+  },
+  "homepage": "https://github.com/dielhennr/fire-colony-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "firebase-admin": "^9.9.0",
+    "firebase-functions": "^3.10.0"
+  }
+}
