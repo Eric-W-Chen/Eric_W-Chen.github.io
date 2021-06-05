@@ -1,6 +1,6 @@
-# Animal Colony Management System Front End
+# Animal Colony Management System Back End
 
-## [Frontend code](https://github.com/dielhennr/colony-frontend)
+## [Frontend code](https://github.com/Eric-W-Chen/Eric-W-Chen-Projects/tree/master/Animal%20Colony%20Front%20End)
 
 ## Development Setup
 You'll first need [Node.js](https://nodejs.org/) installed, however I recommend
@@ -25,7 +25,7 @@ If you have any questions, see the [nodenv installation guide](https://github.co
 You'll then want to install the node version listed in `.node-version` at the
 root of this project:
 ```bash
-cd animal-colony-frontend
+cd Animal_Colony_Back_End
 nodenv install
 ```
 
@@ -35,7 +35,7 @@ use it to sync packages for the project.
 
 To install the dependencies do
 ```bash
-cd fire-colony-api
+cd Animal_Colony_Back_End
 npm install
 ```
 
