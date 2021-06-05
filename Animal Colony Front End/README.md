@@ -25,7 +25,7 @@ If you have any questions, see the [nodenv installation guide](https://github.co
 You'll then want to install the node version listed in `.node-version` at the
 root of this project:
 ```bash
-cd animal-colony-frontend
+cd Animal_Colony_Front_End
 nodenv install
 ```
 
@@ -35,7 +35,7 @@ use it to sync packages for the project.
 
 To install the dependencies do
 ```bash
-cd colony-frontend
+cd Animal_Colony_Front_End
 npm install
 ```
 
