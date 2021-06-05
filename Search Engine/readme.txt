@@ -6,4 +6,4 @@ Utilized multi-threading to allow simultaneous reading and writing to speed the 
 Developed the front-end aspect of the project using a CSS template through HTML and a multithreaded web crawler to display the 
 functional search-engine.
 Utilized web crawler to optimize speed and Jetty to launch the application servlet to allow the search engine to be deployed.
-Used JDBC (Java Database Connectivity) to create an SSH tunnel to connect  to the MariaDB database server on a separate computer.
+Used JDBC (Java Database Connectivity) to create an SSH tunnel to connect to the MariaDB database server on a separate computer.
